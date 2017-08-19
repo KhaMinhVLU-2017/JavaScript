@@ -1,0 +1,125 @@
+
+.head{
+  width: 100%;
+  height: 50px;
+  background: gray;
+}
+div.headsleft{
+  width: 60%;
+  float: left;
+}
+div.headright{
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+ul.icon li{
+  display: inline;
+  margin-right: 5px;
+}
+img.ico{
+  width: 25px;
+  height: 25px;
+}
+div.headrowleft{
+  margin-left: 40px;
+  float: left;
+  width: 30%;
+}
+div.headrowright{
+  margin-top: -10px;
+  float: left;
+  height: 170px;
+  width: 65%;
+  background-image: url("apple.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+div.rowHead{
+  clear: both;
+  background: #CCCCC0;
+}
+.rowHead ul.susu li{
+  margin-right: 50px;
+  border-right:  5px groove ;
+  border-left:   5px groove ;
+  border-top:   5px groove ;
+  display: inline;
+  background:pink;
+}
+li#lastid{
+  float: right;;
+}
+div.dow{
+  background: white;
+}
+img#iconmen{
+  margin-top: 10px;
+  margin-left: 40px;
+  width: 150px;
+  height: 80px;
+}
+p#pS{
+  position: relative;
+   animation-name:meoright;
+   animation-duration: 10s;
+   animation-iteration-count:infinite;
+   margin-top: -50px;
+   margin-left: 185px;
+}
+@keyframes meoright {
+  0% {left: 0%;}
+  25% {color:red;left: 25%;}
+  50% {color:blue;left: 50%;}
+  75% {color:green;left: 75%;}
+  100%{color: yellow;left:  100%;}
+}
+div.contentLeft{
+  margin-top: 50px;
+  width: 20%;
+  line-height: 1.6em;
+  float: left;
+
+}
+ul#LiSu li{
+  border: 1px solid blue;
+  font-size: 20px ;
+  font-family: cursive;
+}
+#asklt{
+  background: red;
+  color: white;
+  text-align: center;
+}
+div.contentCenter{
+  width:60%;
+  float: left;
+  margin-top: 65px;
+  margin-left: 20px;
+}
+img.centerImg{
+  width: 250px;
+  height: 250px;
+}
+span.spa1{
+  margin-left: 20px;
+  font-size: 25px;
+  float: left;
+  border: 1px solid gray;
+}
+span.spa2{
+  font-size: 25px;
+  float: left;
+  border: 1px solid gray;
+}
+span.spa3{
+  font-size: 25px;
+  float: left;
+  border: 1px solid gray;
+}
+header.spa0{
+  font-size: 25px ;
+  font-weight: bold;
+  border: 1px solid gray;
+  margin-left: 20px;
+}
